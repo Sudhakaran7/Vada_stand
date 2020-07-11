@@ -1,0 +1,53 @@
+Vignesh is a tea stall owner, he wants to develop his business, so he planned to sell vada in his shop,
+he planned to attract the customer by placing the vada in triangle format, so that the design of placing vada
+will attract more customer, he needs help to arrange the vada in a trainle, where every k row should contain
+K vadas,
+For example, if he has 8 vadas, then he can place that like,
+
+vada1
+vada2 vada3
+vada4 vada5 vada6
+vada7 vada8
+
+since you have place k vadas in k rows, the final row is not completed because of insufficient of vadas
+you have to tell how many rows he can complete place k vada in k rows,
+answer for the 8 vada is 3, bcuz 3 rows can be completed with 8 vadas.
+
+Sample input:
+8
+
+Sample output:
+3
+
+Explanation:
+vada1  --------------------> count 1
+vada2 vada3 ---------------> count 2
+vada4 vada5 vada6 ---------> count 3
+vada7 vada8 ---------------> incompleted row
+so the count is 3, 3 is the answer.
+
+Sample input:
+4
+
+Sample output:
+2
+
+Explanation:
+vada1  --------------------> count 1
+vada2 vada3 ---------------> count 2
+vada4 ---------------> incompleted row
+so the output is 2
+
+Sample input:
+15
+
+Sample output:
+5
+
+Explanation:
+vada1  -----------------------------> count 1
+vada2 vada3 ------------------------> count 2
+vada4 vada5 vada6 ------------------> count 3
+vada7 vada8 vada9 vada10 -----------> count 4
+vada11 vada12 vada13 vada14 vada15 -> count 5
+So the answer is 5
